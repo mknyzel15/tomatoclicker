@@ -1,0 +1,78 @@
+/*
+CSS for Clicker Game Template
+by Mike Henry (mikeshenry@gmail.com)
+
+Available from https://github.com/mashmac2/clicker-game-template
+
+You have permission to reuse this code for non-commercial purposes with attribution
+*/
+
+body {
+	background-color: #91a0ba;
+	margin: 0;
+}
+#heading{
+	padding: 20px;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	background-color: #855e42;
+	color: white;
+	overflow: auto;
+}
+
+#content p{
+  display:none;
+}
+#clicker{
+  display:none;
+}
+
+.clicker-button button {
+  padding: 15px 25px;
+  font-size: 40px;
+  display: block;
+  margin-bottom: 20px;
+	background-color: #90ee90;
+	color: white;
+	border-style: none;
+}
+.clicker-button button:hover {
+	background-color: #90ee90;
+	color: white;
+}
+.clicker-button button:active {
+	background-color: #659D32;
+	color: white;
+}
+.upgrades button {
+  padding: 5px 15px;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#grandma {
+	display:none;
+}
+#greenhouse {
+	display:none;
+}
+#tractor {
+	display:none;
+}
+#farm {
+	display:none;
+}
+
+#footer{
+  margin-top: 50px;
+}
+
+#saving-status-1, #saving-status-2{
+  display:none;
+}
+.social-media-icons i {
+	font-size: 2em;
+	letter-spacing: 15px;
+}
